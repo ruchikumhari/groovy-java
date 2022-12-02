@@ -32,7 +32,7 @@ public final class App {
 			/*String scriptUrl = Thread.currentThread().getContextClassLoader().getResource(script);
 			groovyClassLoader = new GroovyClassLoader(scriptUrl);
 			println "-> "+ groovyClassLoader.getClassPath()*/
-			//println com.informatica.csm.plugins.PluginBootStrapper.class.getLocation().path
+			//println com.example.App.class.getLocation().path
 			
 			groovyClassLoader = new GroovyClassLoader(Thread.currentThread().getContextClassLoader());
 			pluginScript = groovyClassLoader.parseClass(new File(script));
