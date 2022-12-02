@@ -5,6 +5,8 @@ This is an existing problem that has been discussed on [stackoverflow](https://s
 1. Have groovy scripts packaged inside the fat jar. <done>
 2. Execute the fat jar and run `executeMe` function from each of these groovy script files (Plugins.groovy, Windows.groovy, Linux.groovy). <Stuck :(>
 
+I have also provided build and run commands and also current exception in this Readme file.
+
 # Java & Maven details
 Java version: 1.8.0_302
 Maven version: 3.2.5
