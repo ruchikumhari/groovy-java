@@ -15,3 +15,25 @@ mvn clean install
 
 # Run CMD
 java -cp mvn-groovy-test-example-1.0-jar-with-dependencies.jar; com.example.App %* 
+
+# Present Error
+Exception in thread "main" java.io.FileNotFoundException: C:\Share\groovy-script-example\target\Plugins.groovy (C:\Share\groovy-script-example\target\Plugins.groovy)
+        at groovy.lang.GroovyCodeSource.<init>(GroovyCodeSource.java:107)
+        at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:245)
+        at groovy.lang.GroovyClassLoader$parseClass.call(Unknown Source)
+        at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+        at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+        at com.example.App.bootStrapScript(App.groovy:38)
+        at com.example.App.loadDescriptor(App.groovy:21)
+        at com.example.App.<init>(App.groovy:17)
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+        at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+        at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+        at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+        at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+        at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+        at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+        at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+        at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:268)
+        at com.example.App.main(App.groovy:50)
