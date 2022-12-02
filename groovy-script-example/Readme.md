@@ -2,8 +2,8 @@
 This is an existing problem that has been discussed on [stackoverflow](https://stackoverflow.com/questions/74569226/how-to-load-groovy-scripts-from-within-the-jar-file/74606781?noredirect=1#comment131768662_74606781), and this project contains only the bare necessities for experimenting with it. I'm attempting to use the App.groovy main class to execute the groovy scripts contained within the fat jar.
 
 ## Main intent
-1. Have groovy scripts packaged inside the fat jar
-2. Execute the fat jar and run `executeMe` function from each of these groovy script files.
+1. Have groovy scripts packaged inside the fat jar. <done>
+2. Execute the fat jar and run `executeMe` function from each of these groovy script files (Plugins.groovy, Windows.groovy, Linux.groovy). <Stuck :(>
 
 # Java & Maven details
 Java version: 1.8.0_302
