@@ -24,7 +24,7 @@
 				<directory>.</directory>
 				<includes>
 					<!--<include>plugins/**/*.*</include>-->
-					<include>*.groovy</include>
+					<include>plugins/</include>
 				</includes>
 			</resource>
 		</resources>
